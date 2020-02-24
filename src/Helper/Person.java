@@ -1,4 +1,1 @@
-package Helper;
-
-public class Person {
-}
+package person;
