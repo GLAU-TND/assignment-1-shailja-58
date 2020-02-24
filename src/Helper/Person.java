@@ -66,4 +66,9 @@ public abstract class Person implements Comparable<Person> {
                     "-------- * -------- * -------- * --------";
     }
 
+    //compareTo method for comparing objects of person class
+    @Override
+    public int compareTo(Person newPerson) {
+        return this.getFirstName().compareTo(newPerson.getFirstName());
+    }
 }
