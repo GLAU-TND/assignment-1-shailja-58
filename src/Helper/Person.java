@@ -20,4 +20,10 @@ public abstract class Person implements Comparable<Person> {
     public String getLastName() {
         return lastName;
     }
+    //Setter for last name
+    public void setLastName(String lastName) {
+        System.out.println(lastName);
+        this.lastName = lastName;
+    }
+
 }
