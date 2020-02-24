@@ -17,5 +17,8 @@ public class MyLinkedList<T extends  Comparable<T>> {
         return iter;
     }
     //Getter for iter
+    public void setIter(Node<T> iter) {
+        this.iter = iter;
+    }  //Setter for iter
 
 }
