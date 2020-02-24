@@ -26,4 +26,9 @@ public abstract class Person implements Comparable<Person> {
         this.lastName = lastName;
     }
 
+    //Getter for Email ID
+    public String getEmailID() {
+        return emailID;
+    }
+
 }
