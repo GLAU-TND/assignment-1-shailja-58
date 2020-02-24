@@ -30,5 +30,9 @@ public abstract class Person implements Comparable<Person> {
     public String getEmailID() {
         return emailID;
     }
+    //Setter for EmailID
+    public void setEmailID(String emailID) {
+        this.emailID = emailID;
+    }
 
 }
