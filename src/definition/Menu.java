@@ -1,5 +1,6 @@
 package definition;
 
+import Helper.Node;
 import Helper.Person;
 
 import java.util.Scanner;
@@ -61,5 +62,22 @@ public class Menu {
             System.out.print("Would you like to add another contact number? (y/n): ");
             c = scan.nextLine().trim().charAt(0);
             //input to add another contact number
+    }
+        String email = null;
+        System.out.print("Would you like to add email address? (y/n): ");
+        c = scan.nextLine().trim().charAt(0);
+        if (c == 'y') {
+            System.out.print("Email Address: ");
+            email = scan.nextLine().trim();
+            person.setEmailID(email);
+            System.out.println("y");
+        } else {
+            person.setEmailID("");
+            System.out.println("n");
+        }
+
+        Node<Person> node =new Node<>();
+        Node.setData(person);
+        linkedList.insert(Node);        //connection
     }
 }
