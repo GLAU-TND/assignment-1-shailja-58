@@ -6,10 +6,16 @@ public class MyLinkedList<T extends  Comparable<T>> {
 
     public Node<T> getHead() {
         return head;
-    }        //getter for head
+    }
+    //getter for head
     public void setHead(Node<T> node) {
         head = node;
         iter = head;
-    }   //setter for head
+    }
+    //setter for head
+    public Node<T> getIter() {
+        return iter;
+    }
+    //Getter for iter
 
 }
