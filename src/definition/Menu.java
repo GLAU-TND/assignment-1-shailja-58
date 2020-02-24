@@ -9,6 +9,7 @@ public class Menu {
     private MyLinkedList<Person> linkedList;
     private Scanner scan;
 
+
     public Menu() {                     //constructor
         scan = new Scanner(System.in);
         linkedList = new MyLinkedList<>();

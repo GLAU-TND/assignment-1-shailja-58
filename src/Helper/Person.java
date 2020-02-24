@@ -1,6 +1,6 @@
 package Helper;
 
-public abstract class Person implements Comparable<Person> {
+public class Person implements Comparable<Person> {
 
     private String firstName;                   //First name of person
     private String lastName;                    //Last name of person
