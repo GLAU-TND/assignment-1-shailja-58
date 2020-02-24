@@ -35,4 +35,10 @@ public abstract class Person implements Comparable<Person> {
         this.emailID = emailID;
     }
 
+    //Getter for fetching all phone numbers
+    public StringBuffer getPhoneNumber() {
+        return this.phoneNumbers;
+    }
+
+
 }
