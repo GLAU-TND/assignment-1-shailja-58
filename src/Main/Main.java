@@ -1,4 +1,5 @@
 package Main;
+import definition.Menu;
 public class Main {
     public static void main(String [] args)
     {
@@ -24,7 +25,7 @@ public class Main {
                     menu.exitChoice();
                     flag = false;
                     break;
-                    // main class completed
+                    //main class completed
             }
         }
     }

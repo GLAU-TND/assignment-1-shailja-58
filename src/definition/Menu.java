@@ -28,18 +28,13 @@ public class Menu {
     public void addChoice() {
         Person person = new Person();
         String name;
-        System.out.println("You have chosen to add a new contact: \n" +
-                "Please enter the name of the Person\n");
+        System.out.println("You have chosen to add a new contact: \n" + "Please enter the name of the Person\n");
         scan.nextLine();
 
         //taking the input from the user
 
         System.out.println("First Name: ");
-        name = scan.nextLine().
-
-                trim() {
-
-        }
+        name = scan.nextLine().trim();
         person.setFirstName(name);
         //taking input of first name
         System.out.print("Last Name: ");
@@ -79,7 +74,7 @@ public class Menu {
 
         Node<Person> node =new Node<>();
         Node.setData(person);
-        linkedList.insert(Node);        //connection
+        linkedList.insert((Helper.Node<Person>)node);        //connection
     }
     private void sortList(MyLinkedList<Person> linkedList){
         linkedList.sort();
