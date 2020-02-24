@@ -12,7 +12,7 @@ public class Node<T> {
     }
 
     //Setter for data
-    public static void setData(T data) {
+    public void setData(T data) {
         this.data = data;
     }
     //Getter for self referential data
@@ -26,8 +26,6 @@ public class Node<T> {
     }
     @Override
     public String toString() {
-        return "Node{" +
-                "data=" + data +
-                '}';
+        return "Node{" + "data=" + data + '}';
     }
 }
