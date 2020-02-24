@@ -12,6 +12,7 @@ public class Menu {
         scan = new Scanner(System.in);
         linkedList = new MyLinkedList<>();
     }
+
     public int showChoice() {
         System.out.println("Welcome to Devesh's Contact List App\n" +
                 "Press 1 to add a new contact\n" +
@@ -21,11 +22,23 @@ public class Menu {
                 "Press 5 to exit program");
         return scan.nextInt();
     }
+
     public void addChoice() {
         Person person = new Person();
         String name;
         System.out.println("You have chosen to add a new contact: \n" +
                 "Please enter the name of the Person\n");
         scan.nextLine();
-                                                        //taking the input from the user
+
+        //taking the input from the user
+
+        System.out.println("First Name: ");
+        name = scan.nextLine().
+
+                trim() {
+
+        }
+        person.setFirstName(name);
+        //taking input of first name
+    }
 }
