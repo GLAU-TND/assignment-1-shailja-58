@@ -13,3 +13,6 @@ public class MyLinkedList<T extends  Comparable<T>> {
         head = node;
         iter = head;
     }                               //setter for head
+    public Node<T> getIter() {
+        return iter;
+    }                               //Getter for iter
